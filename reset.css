@@ -99,9 +99,14 @@ menu,
 nav,
 section {
   display: block;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  outline: none;
+  text-rendering: optimizeLegibility;
 }
 body {
   line-height: 1;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 ol,
 ul {
@@ -121,4 +126,24 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
