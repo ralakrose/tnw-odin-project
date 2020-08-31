@@ -22,7 +22,7 @@ nav ul li {
 }
 
 .section-2 {
-  background-color: aliceblue;
+  background-color: white;
   margin-bottom: 4px;
   z-index: 10;
   padding: 20px;
@@ -225,11 +225,13 @@ nav ul li {
   margin-left: 20px;
   margin-right: 20px;
 }
-.grid-4 {
+.grid-2 {
   position: relative;
   display: grid;
-  grid-template-rows: 50% 50%;
-  grid-gap: 2px;
+  grid-template-columns: 33.3333% 33.3333% 33.3333%;
+  grid-gap: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .cover-story-header {
@@ -528,14 +530,320 @@ img {
   z-index: 999;
 }
 
-.card {
-  background-color: darkkhaki;
+.section-4 {
+  background-color: white;
+  margin-bottom: 4px;
+  z-index: 10;
+  padding: 40px;
+  font-family: Shentox, sans-serif;
 }
-.footer-social {
-  justify-content: center;
-  background-color: burlywood;
+.gradient-3 {
+  background: transparent
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png)
+    no-repeat;
+  background-size: 100% 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.section-4-grid-item h2 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 28px;
+  margin-bottom: 14px;
+  padding-left: 40px;
+}
+.section-4-grid-item h2 a {
+  color: #f42;
+  text-decoration: none;
+}
+.section-4-grid-item h2 a i {
+  font-size: 28px;
+  color: #f42;
+}
+.section-4-grid-item ul {
+  list-style: none;
+}
+.section-4-article {
+  height: 0;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+.section-4-article-background {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.section-4-article-header {
+  bottom: 0;
+  left: 0;
+  padding: 14px;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+.section-4-article-header h5 {
+  color: #fff;
+  font-size: 13px;
+  pointer-events: none;
+}
+.section-4-article-header h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.section-4-article-header h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+.section-4-article-header ul li {
+  list-style: none;
+  display: inline;
+}
+.section-4-article-header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.section-4-article-2 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  background-color: rgba(255, 68, 34, 0.06);
+  margin: 2px 0;
+}
+.section-4-article-2 header {
+  flex: 1;
+  overflow: hidden;
+  padding: 10px 14px 0;
+}
+.section-4-article-2 header h5 {
+  color: #f42;
+  font-size: 13px;
+}
+.section-4-article-2 header h4 {
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-size: 14px;
+}
+.section-4-article-2 header h4 a {
+  text-decoration: none;
+  color: #f42;
+  background-color: rgba(255, 68, 34, 0.06);
+}
+.section-4-article-2 a {
+  flex: 0 0 96px;
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+.section-4-article-2-headline {
+  border-bottom: 1px solid #eee;
+}
+.section-4-article-2-headline h4 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.section-4-article-2-headline h4 a {
+  color: #555;
+  display: block;
+  padding: 6px 0 6px 14px;
+  position: relative;
+}
+.section-4-article-2-headline i {
+  color: #f42;
+  font-size: 6px;
+  padding: 3px;
+  height: inherit;
+}
+.section-5 {
+  background-color: white;
+  margin-bottom: 4px;
+  z-index: 10;
+  padding: 40px;
+  font-family: Shentox, sans-serif;
+}
+.section-5 h2 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 28px;
+  margin-bottom: 24px;
+  margin-left: 40px;
+}
+.section-5 h2 a {
+  color: #f42;
+  text-decoration: none;
+}
+.section-5 h2 a i {
+  color: #f42;
+  font-size: 30px;
+}
+.section-5-grid-item {
+  position: relative;
+}
+.section-5-grid-item a {
+  background-position: 0% 0%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: auto;
+  overflow: hidden;
+  padding-top: 50%;
+  width: 100%;
+  margin-bottom: 8px;
+  position: relative;
+}
+.discount-ribbon {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #000;
+  display: block;
+  height: 80px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  z-index: 10;
+}
+.discount-ribbon div {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+  color: #000;
+}
+.section-5-grid-item h4 {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-weight: 700;
+}
+.section-5-grid-item h4 a {
+  color: #000;
+  text-decoration: none;
+}
+.deal-price {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 4px;
+  vertical-align: baseline;
+}
+.old-price {
+  text-decoration: line-through;
+  margin-right: 4px;
+  font-size: 13px;
+}
+.new-price {
+  color: #555;
+  font-size: 16px;
+}
+.page-footer {
+  text-align: center;
+  position: relative;
+  z-index: 4;
+  display: block;
+}
+.footer-links {
+  background: #131313;
+  padding: 3em 0 2em;
+}
+.footer-links-wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+.footer-links-wrapper ul {
+  list-style: none;
+}
+.footer-links-social {
+  margin-bottom: 1.5em;
+}
+.footer-links-social li {
+  display: inline-block;
+  margin: 0 8px;
+}
+.footer-links-social li a {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 23px;
+  padding: 12px;
+  text-align: center;
+  width: 23px;
+}
+.footer-links-social li a i {
+  color: #fff;
+  font-size: 20px;
+}
+.footer-links-menu {
+  list-style: none;
+}
+.footer-links-menu li {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 4px;
+}
+.footer-links-menu li a {
+  text-decoration: none;
+  color: #aaa;
+  text-transform: uppercase;
 }
 .footer-copyright {
-  justify-content: center;
-  background-color: bisque;
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 3em 0;
+}
+.footer-copyright span {
+  display: inline;
+}
+.footer-copyright span .tnw-footer {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+.footer-copyright span .stackpath-logo {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
 }
